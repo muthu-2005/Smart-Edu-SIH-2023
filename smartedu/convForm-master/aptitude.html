@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aptitude test</title>
+    <style>
+        html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+a{
+    font-size: 30px;
+    font-family: 'Skranji', cursive;
+    text-decoration:none ;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    background-color:orange ;
+    margin-left: 90%;
+    top: 100%;
+}
+body {
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: orange;
+}
+.quiz,
+.choices {
+    list-style-type: none;
+    padding: 0;
+}
+.choices li {
+    margin-bottom: 5px;
+}
+.choices label {
+    display: flex;
+    align-items: center;
+}
+.choices label,
+input[type="radio"] {
+    cursor: pointer;
+}
+input[type="radio"] {
+    margin-right: 8px;
+}
+.view-results {
+    padding: 1rem;
+    cursor: pointer;
+    font-size: inherit;
+    color: white;
+    background: teal;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.my-results {
+    padding: 1rem;
+    border: 1px solid goldenrod;
+}
+    </style>
+</head>
+<body>
+    <h3>Commerce Career Selector Aptitute Test Has :
+        15 minutes of Duration
+      
+        12 Questions</h3>
+    <ul class="quiz">
+        <li>
+            <h4>Word is to dictionary as map is to</h4>
+            <ul class="choices">
+                <li>
+                    <label
+                        ><input type="radio" name="question0" value="A" /><span
+                            >Atlas</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question0" value="B" /><span
+                            >Globe</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question0" value="C" /><span
+                            >Location</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question0" value="D" /><span
+                            >Geography</span
+                        ></label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h4>In a code language if WISE is coded as UGQC, then GOOD is coded as:</h4>
+            <ul class="choices">
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="A" /><span
+                            >BNNE</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="B" /><span
+                            >DOOG</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="C" /><span
+                            >EMMB</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question1" value="D" /><span
+                            >BNND</span
+                        ></label
+                    >
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h4>Complete the series: 1, 6,13, 22, 33,....</h4>
+            <ul class="choices">
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="A" /><span
+                            >51</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="B" /><span
+                            >46</span
+                        ></label
+                    >
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="C" /><span
+                            >48</span
+                        ></label>
+                </li>
+                <li>
+                    <label
+                        ><input type="radio" name="question2" value="D" /><span
+                            >49</span
+                        ></label
+                    >
+                </li>
+            </ul>
+            <li>
+                <h4>Accountable means:</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question3" value="A" /><span
+                                >Dependable</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question3" value="B" /><span
+                                >Answerable</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question3" value="C" /><span
+                                >Dutiful</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question3" value="D" /><span
+                                >Sincere</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>If in a certain language, AMRITSAR is coded as BNSJUTBS, how is BOMBAY coded in that code?</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question4" value="A" /><span
+                                >CPNCBZ</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question4" value="B" /><span
+                                >CPOCBZ</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question4" value="C" /><span
+                                >CPNCBX</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question4" value="D" /><span
+                                >CQOCBZ</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Complete the series: 3, 7, 15, 27, 43,....</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question5" value="A" /><span
+                                >63</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question5" value="B" /><span
+                                >62</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question5" value="C" /><span
+                                >67</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question5" value="D" /><span
+                                >64</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Clumsy means:</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question6" value="A" /><span
+                                >varied</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question6" value="B" /><span
+                                >different</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question6" value="C" /><span
+                                >arrogant</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question6" value="D" /><span
+                                >awkward</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Thread is to needle as book is to:</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question7" value="A" /><span
+                                >Rack</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question7" value="B" /><span
+                                >Sack</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question7" value="C" /><span
+                                >Shelf</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question7" value="D" /><span
+                                >Wood</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Full form of RBI:</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question8" value="A" /><span
+                                >Reserve Bank of India</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question8" value="B" /><span
+                                >Rupee Bank of India</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question8" value="C" /><span
+                                >Regional Bank of India</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question8" value="D" /><span
+                                >Reserve Bank of Institute</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>What will be the value of 5 times the square of 3?</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question9" value="A" /><span
+                                >23</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question9" value="B" /><span
+                                >53</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question9" value="C" /><span
+                                >45</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question9" value="D" /><span
+                                >40</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Memorable means:</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question10" value="A" /><span
+                                >Unforgettable</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question10" value="B" /><span
+                                >Wonderful</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question10" value="C" /><span
+                                >Interesting</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question10" value="D" /><span
+                                >Eventful</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Conditions relating to public health:</h4>
+                <ul class="choices">
+                    <li>
+                        <label
+                            ><input type="radio" name="question11" value="A" /><span
+                                >Sanitisation</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question11" value="B" /><span
+                                >Sanitasion</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question11" value="C" /><span
+                                >Senitashion</span
+                            ></label
+                        >
+                    </li>
+                    <li>
+                        <label
+                            ><input type="radio" name="question11" value="D" /><span
+                                >Sanitashon</span
+                            ></label>
+                    </li>
+                </ul>
+            </li>
+        </li>
+    </ul>
+    <button class="view-results" onclick="returnScore()">View Results</button>
+    <span id="myresults" class="my-results">My results will appear here</span>
+</body>
+<script>
+    var answers = ["A", "C", "B","B","D","A","D","C","A","C","A","A"],
+    tot = answers.length;
+function getCheckedValue(radioName) {
+    var radios = document.getElementsByName(radioName);
+    for (var y = 0; y < radios.length; y++)
+        if (radios[y].checked) return radios[y].value;
+}
+function getScore() {
+    var score = 0;
+    for (var i = 0; i < tot; i++)
+        if (getCheckedValue("question" + i) === answers[i]) score += 1;
+    return score;
+}
+function returnScore() {
+    document.getElementById("myresults").innerHTML =
+        "Your score is " + getScore() + "/" + tot;
+    if (getScore() > 2) {
+        console.log("Bravo");
+    }
+}
+</script>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: lightyellow; /* Fallback color */
+            background-image: url('bio.jpg'); /* Make sure this file is accessible */
+            background-size: cover; /* Ensure the background covers the entire area */
+            margin: 0;
+            font-family: "Poppins", sans-serif;; /* Primary font for the body */
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px; /* Adds some space around the header */
+        }
+
+        h1 {
+            color: blueviolet;
+        }
+
+        h2 {
+            display: inline;
+            
+            color: rgb(220, 144, 46);
+            padding: 5px 10px; /* Adds padding around the text */
+        }
+
+        h3 {
+            margin-top: 20px; /* Adds space above the h3 */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0; /* Removes default padding */
+            margin-left: 20px; /* Adds space to the left */
+        }
+
+        ul li::before {
+            content: "\2022"; /* Adds a bullet point */
+            color: red;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em; /* Adjusts bullet position */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px; /* Adjusts font size for smaller screens */
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GROUPS AFTER 10TH</h1>
+    </header>
+    <center>
+    <h2>BIO-MATHS</h2>
+    <h3>SUBJECTS:</h3>
+    <ul>
+        <li>Mathematics</li>
+        <li>Biology</li>
+        <li>Physics</li>
+        <li>Chemistry</li>
+    </ul>
+  </center>
+</body>
+</html>

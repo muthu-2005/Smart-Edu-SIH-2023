@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After 12th Courses</title>
+    
+    <!-- Importing Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+
+    <style>
+        /* General body styling */
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            background-image: url('after12.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        /* Header styling */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 36px;
+        }
+
+        /* Styling for the container holding course categories */
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            margin: 150px auto;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Styling for the unordered list and list items */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 20px;
+        }
+
+        ul li::before {
+            content: "\2022"; /* Bullet symbol */
+            color: red;
+            font-size: 1.5em;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1.2em;
+        }
+
+        /* Styling for links */
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+
+        /* Styling for the motivational quote */
+        marquee {
+            margin-top: 50px;
+            font-size: 24px;
+            color: black;
+        }
+
+        /* Responsive design: Adjustments for smaller screens */
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                margin-top: 100px;
+            }
+
+            header {
+                font-size: 28px;
+            }
+
+            a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>After 12th Courses</h1>
+    </header>
+
+    <!-- Container with Course Categories -->
+    <div class="container">
+        <ul>
+            <li><a href="engineering.html">ENGINEERING</a></li>
+            <li><a href="arts.html">ARTS</a></li>
+            <li><a href="science.html">SCIENCE</a></li>
+            <li><a href="management.html">MANAGEMENT</a></li>
+        </ul>
+    </div>
+
+    <!-- Motivational Quote -->
+    <center>
+        <marquee>"DIFFICULT ROADS ALWAYS END UP IN BEAUTIFUL DESTINATIONS"</marquee>
+    </center>
+
+</body>
+</html>
